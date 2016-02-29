@@ -49,7 +49,7 @@ Clear the screen and run a query after the SQL script is updated:
 
 Rebuild project if a source file is modified or added to the src/ directory:
 
-    $ while sleep 1; do ls src/*.rb | entr -d rake; done
+    $ while true; do ls src/*.rb | entr -d make; done
 
 News
 ----
